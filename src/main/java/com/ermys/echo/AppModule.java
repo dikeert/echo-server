@@ -26,7 +26,7 @@ public class AppModule extends AbstractModule {
 
 			Names.bindProperties(binder(), props);
 		} catch (IOException e) {
-			log.warn("Unable to load properties. Properties injection will not be able", e);
+			log.warn("Unable to load properties. Properties injection will not be available", e);
 		}
 	}
 
